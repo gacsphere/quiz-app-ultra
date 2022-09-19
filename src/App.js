@@ -5,11 +5,13 @@ import Card from "./components/card/Card";
 
 function App() {
   return (
-    <div className="card-list">
+    <div>
       <Header />
-      <Card />
-      <Card />
-      <Card />
+      <main className="card-list">
+        <Card />
+        <Card />
+        <Card />
+      </main>
       <Navigation />
     </div>
   );
